@@ -11,6 +11,8 @@ namespace Alura.Loja.Testes.ConsoleApp
         public string Unidade { get; internal set; }
         public IList<PromocaoProduto> Promocoes { get; set; }
 
+        public IList<Compra> Compras { get; set; }
+
         public override string ToString()
         {
             return this.Nome;
